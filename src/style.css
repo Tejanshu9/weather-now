@@ -1,0 +1,79 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App container */
+#app {
+  width: 350px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+/* Input group */
+.input-group {
+  display: flex;
+  gap: 8px;
+}
+
+/* Input */
+input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Button */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* Result card */
+#weatherResult {
+  margin-top: 15px;
+  padding: 15px;
+  background: #0f172a;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Result text */
+#weatherResult h2 {
+  margin-bottom: 8px;
+  color: #60a5fa;
+}
+
+#weatherResult p {
+  margin: 4px 0;
+}
